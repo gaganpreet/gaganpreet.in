@@ -1,8 +1,9 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 
 theme = "cactus"
+title = "Gaganpreet Arora"
+
 
 [params]
   colortheme = "classic" # dark, light, white, or classic
@@ -11,6 +12,8 @@ theme = "cactus"
   mainSection = "posts"
   postsOnHomePage = 5
   tagsOverview = false
+  logo = "/images/me.jpg"
+  favicon = "/images/favicon.ico"
 
   [params.comments]
     enabled = true # default
