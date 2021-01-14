@@ -1,3 +1,36 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+
+theme = "cactus"
+
+[params]
+  colortheme = "classic" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+  description = "Hi, I am Gaganpreet, a software engineer based in the Netherlands."
+  mainSection = "posts"
+  postsOnHomePage = 5
+  tagsOverview = false
+
+  [params.comments]
+    enabled = true # default
+    engine = "disqus" # more supported engines will be added.
+
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/gaganpreet"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://in.linkedin.com/in/gaganpreetarora"
+  [[params.social]]
+    name = "email"
+    link = "hey@gaganpreet.in"
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/_gagan"
+  [[params.social]]
+    name = "lastfm"
+    link = "https://www.last.fm/user/gaganpreet"
+  [[params.social]]
+    name = "goodreads"
+    link = "https://www.goodreads.com/user/show/7515314-gaganpreet-arora"
