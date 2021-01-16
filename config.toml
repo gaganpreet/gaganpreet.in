@@ -4,6 +4,9 @@ languageCode = "en-us"
 theme = "cactus"
 title = "Gaganpreet Arora"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 
 [params]
   colortheme = "classic" # dark, light, white, or classic
