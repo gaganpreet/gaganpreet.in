@@ -20,8 +20,14 @@ title = "Gaganpreet Arora"
     engine = "disqus" # more supported engines will be added.
 
   [[params.social]]
-    name = "github"
+    name = "github-alt"
     link = "https://github.com/gaganpreet"
+  [[params.social]]
+    name = "goodreads"
+    link = "https://www.goodreads.com/user/show/7515314-gaganpreet-arora"
+  [[params.social]]
+    name = "gitlab"
+    link = "https://gitlab.com/gaganpreet"
   [[params.social]]
     name = "linkedin"
     link = "https://in.linkedin.com/in/gaganpreetarora"
@@ -34,6 +40,3 @@ title = "Gaganpreet Arora"
   [[params.social]]
     name = "lastfm"
     link = "https://www.last.fm/user/gaganpreet"
-  [[params.social]]
-    name = "goodreads"
-    link = "https://www.goodreads.com/user/show/7515314-gaganpreet-arora"
