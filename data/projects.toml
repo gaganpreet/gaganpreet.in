@@ -1,0 +1,49 @@
+[[list]]
+name = "No Cookie Analytics"
+url = ""
+desc = 'WIP: A privacy friendly alternative to Google Analytics'
+
+[[list]]
+name = "Portable"
+url = "https://github.com/gaganpreet/portable"
+desc = 'WIP: Move music libraries between streaming services'
+
+[[list]]
+name = "Dotfiles"
+url = "https://github.com/gaganpreet/dotfiles"
+desc = 'An ongoing project to share all my configuration dotfiles and have them tracked in git.'
+
+[[list]]
+name = "Fliprabbit (2015, discontinued)"
+url = ""
+desc = 'A price tracker for <a href="https://flipkart.com/">Flipkart</a>'
+
+[[list]]
+name = "udemy-dl (2015)"
+url = "https://gaganpreet.in/blog/2020/10/25/udemy-dl-story/"
+desc = 'A udemy downloader tool to preserve courses for offline backup. Victim of an overzealous DMCA by Udemy.'
+
+[[list]]
+name = "HN Hiring Mapped (2013)"
+url = "http://gaganpreet.github.io/hn-hiring-mapped/"
+desc = 'Maps the monthly "Who is Hiring" (posted on <a href="https://news.ycombinator.com/submitted?id=whoishiring">1st of every month</a>) HN thread by guessing the location from the posts in the thread. Has some filters for convenience. '
+
+[[list]]
+name = "KWallet dump (2013)"
+url = "https://github.com/gaganpreet/kwallet-dump"
+desc = 'A script to read KWallet files to access passwords away from desktop. I also wrote a <a href="https://gaganpreet.in/blog/2013/07/24/kwallet-security-analysis/">blog post about security deficiencies of KWallet</a>.'
+
+[[list]]
+name = "Pacman in Assembly (2012)"
+url = "https://github.com/gaganpreet/mbr-game"
+desc = "A simplified clone of pacman written in assembly. 482 bytes overall (30 bytes short of the size limit of an MBR). There are no ghosts, no levels but there's only so much you can do in 512 bytes."
+
+[[list]]
+name = "imgurfs (2012)"
+url = "https://github.com/gaganpreet/imgurfs/"
+desc = "A fuse virtual filesystem to use imgur like a directory."
+
+[[list]]
+name = "Video characterization [PDF] (2009)"
+url = "https://gaganpreet.in/static/video_characterization.pdf"
+desc = "Paper I wrote for my Honours project. Data mining applied directly to video data instead of associated metadata. It was used to predict the genre of an unknown movie which gave an accuracy of about 80%. "
