@@ -10,3 +10,12 @@ body h3 {
 .content h6 a {
   text-decoration: underline;
 }
+
+.content {
+    display: block;
+}
+
+img.floatleft {
+    float: left;
+    padding: 0 20px;
+}
