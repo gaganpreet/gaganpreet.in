@@ -1,0 +1,2 @@
+{{ $floatLeft := in .Destination "#floatleft" }}
+<img class="floatleft" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
