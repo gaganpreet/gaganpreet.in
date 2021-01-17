@@ -17,6 +17,7 @@ unsafe= true
   tagsOverview = false
   logo = "/images/me.jpg"
   favicon = "/images/favicon.ico"
+  css = ["css/custom.css"]
 
   [params.comments]
     enabled = true # default
@@ -43,3 +44,14 @@ unsafe= true
   [[params.social]]
     name = "lastfm"
     link = "https://www.last.fm/user/gaganpreet"
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
