@@ -1,0 +1,12 @@
+body h3 {
+    text-decoration: none;
+}
+.content h1 a,
+.content .h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a,
+.content h6 a {
+  text-decoration: underline;
+}
