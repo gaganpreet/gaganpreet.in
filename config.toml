@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://gaganpreet.in/"
 languageCode = "en-us"
 
 theme = "cactus"
@@ -20,7 +20,7 @@ unsafe= true
   css = ["css/custom.css"]
 
   [params.comments]
-    enabled = true # default
+    enabled = false # default
     engine = "disqus" # more supported engines will be added.
 
   [[params.social]]
