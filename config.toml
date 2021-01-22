@@ -11,7 +11,12 @@ unsafe= true
 [params]
   colortheme = "classic" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
-  description = "Hi, I am Gaganpreet, a software engineer based in the Netherlands."
+  description = """Hi, I am Gaganpreet, a software engineer based in the Netherlands.
+
+  I have extensive experience on the backend, and with scalability, security and devops. As a <a href="https://blog.pragmaticengineer.com/the-product-minded-engineer/">product-minded engineer</a> I love to approach projects both as a technical and business problems.
+
+  I've worked at companies of various sizes from small to big and right now I'm building stuff as an independent developer.
+  """
   mainSection = "posts"
   postsOnHomePage = 5
   tagsOverview = false
@@ -26,24 +31,51 @@ unsafe= true
   [[params.social]]
     name = "github-alt"
     link = "https://github.com/gaganpreet"
+    title = "Github"
   [[params.social]]
     name = "goodreads"
-    link = "https://www.goodreads.com/user/show/7515314-gaganpreet-arora"
-  [[params.social]]
-    name = "gitlab"
-    link = "https://gitlab.com/gaganpreet"
+    link = "https://goodreads.com/gaganpreetarora"
+    title = "Goodreads"
   [[params.social]]
     name = "linkedin"
     link = "https://in.linkedin.com/in/gaganpreetarora"
+    title = "Linkedin"
   [[params.social]]
     name = "email"
     link = "hey@gaganpreet.in"
+    title = "E-mail"
   [[params.social]]
     name = "twitter"
     link = "https://twitter.com/_gagan"
+    title = "Twitter"
+  [[params.social]]
+    name = "hacker-news"
+    link = "https://news.ycombinator.com/user?id=gsa"
+    title = "Hacker News"
   [[params.social]]
     name = "lastfm"
     link = "https://www.last.fm/user/gaganpreet"
+    title = "Last.fm"
+  [[params.social]]
+    name = "telegram"
+    link = "https://t.me/gaganpreet"
+    title = "Telegram"
+  [[params.social]]
+    name = "gitlab"
+    link = "https://gitlab.com/gaganpreet"
+    title = "Gitlab"
+  [[params.social]]
+    name = "keybase"
+    link = "https://keybase.io/gaganpreet"
+    title = "Keybase"
+  [[params.social]]
+    name = "delicious"
+    link = "https://pinboard.in/u:gagan"
+    title = "Pinboard"
+  [[params.social]]
+    name = "instagram"
+    link = "https://www.instagram.com/gaganpreet.arora/"
+    title = "Instagram"
 
 
 [[menu.main]]
