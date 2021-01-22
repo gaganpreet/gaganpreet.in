@@ -1,12 +1,12 @@
 [[list]]
 name = "No Cookie Analytics"
 url = "https://www.nocookieanalytics.com"
-desc = 'WIP: A privacy friendly alternative to Google Analytics'
+desc = 'A privacy friendly alternative to Google Analytics'
 
 [[list]]
 name = "Portable"
 url = "https://github.com/gaganpreet/portable"
-desc = 'WIP: Move music libraries between streaming services'
+desc = 'Move music libraries between streaming services'
 
 [[list]]
 name = "Dotfiles"
