@@ -76,6 +76,14 @@ unsafe= true
     name = "instagram"
     link = "https://www.instagram.com/gaganpreet.arora/"
     title = "Instagram"
+  [[params.social]]
+    name = "strava"
+    link = "https://www.strava.com/athletes/42531861"
+    title = "Strava"
+  [[params.social]]
+    name = "polarsteps"
+    link = "https://www.polarsteps.com/gaganpreet"
+    title = "Polarsteps"
 
 
 [[menu.main]]
