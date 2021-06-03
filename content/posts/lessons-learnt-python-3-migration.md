@@ -40,7 +40,7 @@ enum34 ; python_version=="2.7"
 
 ## Step 1: Futurize everything
 
-I used [futurize](https://python-future.org/futurize.html) for a huge chunk of automated changes. To ensure there no regressions were committed to the main branch, I added a pre-commit hook with a custom shell script:
+I used [futurize](https://python-future.org/futurize.html) for a huge chunk of automated changes. To ensure that no regressions were committed to the main branch, I added a pre-commit hook with a custom shell script:
 
 ```yaml
 # pre-commit hook definition
@@ -104,7 +104,7 @@ futurize --stage2 --write --nobackups -j 4 \
     **/*.py
 ```
 
-With every change, I also updated the `futurize.sh` script which was being used by pre-commit hook building up to a point where there all futurize changes had been applied to the codebase with no one able to commit deprecated code.
+With every change, I also updated the `futurize.sh` script which was used by pre-commit hook. Gradually, I arrived at a milestone where all futurize changes had been applied to the codebase, and no one was able to commit deprecated code because of the hook.
 
 
 ## Build unicode sandwich
@@ -131,7 +131,7 @@ Remember those `__future__`, `past.builtins`, `six` imports introduced in Step 2
 
 ## Conclusion
 
-The migration changes occurred over a course of couple of months of working part-time. Adopting a piecemeal approach starting from running the old incompatible app in Python 3 to applying futurize code fixers on at a time resulted in atomic changes to not interfere/cause issues for the parallel development cycle by other engineers. To conclude, here's a list of useful tools/utilities I used to make this job easier:
+The migration changes occurred over a course of a couple of months of working part-time. Adopting a piecemeal approach starting from running the old incompatible app in Python 3 to applying futurize code fixers on at a time resulted in atomic changes to not interfere/cause issues for the parallel development cycle by other engineers. To conclude, here's a list of useful tools/utilities I used to make this job easier:
 
 * [caniusepython3](https://pypi.org/project/caniusepython3/)
 * [futurize](https://python-future.org/futurize.html)
