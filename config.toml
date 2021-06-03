@@ -23,6 +23,7 @@ unsafe= true
   logo = "/images/me.jpg"
   favicon = "/images/favicon.ico"
   css = ["css/custom.css"]
+  showReadTime = true
 
   [params.comments]
     enabled = false # default
