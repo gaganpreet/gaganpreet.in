@@ -10,7 +10,7 @@ I recently migrated a medium sized Flask application from Python 2 to Python 3. 
 
 ### Background
 
-A medium sized Flask application, ~20000 LoC running on Heroku with multiple celery workers. The app was already using the latest version of Python 2.7, which is an necessary stepping stone from 2.x to 3.x.
+A medium sized Flask application, ~20000 LoC running on Heroku with multiple celery workers. The app was already using the latest version of Python 2.7, which is a necessary stepping stone from 2.x to 3.x.
 
 ---------
 
