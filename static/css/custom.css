@@ -1,6 +1,3 @@
-body h3 {
-    text-decoration: none;
-}
 .content h1 a,
 .content .h1 a,
 .content h2 a,
@@ -26,4 +23,17 @@ img.floatleft {
 
 p.nojustify {
     text-align: left;
+}
+h1 {
+    font-size: 1.8rem !important;
+}
+h2 {
+    font-size: 1.5rem !important;
+}
+body h3 {
+    font-size: 1.3rem !important;
+    text-decoration: none;
+}
+h4 {
+    font-size: 1.2rem !important;
 }
