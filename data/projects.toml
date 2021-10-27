@@ -1,4 +1,8 @@
 [[list]]
+name = "Word Cabinet"
+desc = '(WIP) Practice vocabulary using spaced repetition'
+
+[[list]]
 name = "No Cookie Analytics"
 url = "https://nocookieanalytics.com"
 desc = 'A privacy friendly alternative to Google Analytics'
@@ -15,7 +19,6 @@ desc = 'An ongoing project to share all my configuration dotfiles and have them 
 
 [[list]]
 name = "Fliprabbit (2015, discontinued)"
-url = ""
 desc = 'A price tracker for <a href="https://flipkart.com/">Flipkart</a>'
 
 [[list]]

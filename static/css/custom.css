@@ -37,3 +37,6 @@ body h3 {
 h4 {
     font-size: 1.2rem !important;
 }
+body {
+    font-size: 18px;
+}

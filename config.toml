@@ -11,11 +11,7 @@ unsafe= true
 [params]
   colortheme = "classic" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
-  description = """Hi, I am Gaganpreet, a software engineer based in the Netherlands.
-
-  I have extensive experience on the backend, and with scalability, security and devops. As a <a href="https://blog.pragmaticengineer.com/the-product-minded-engineer/">product-minded engineer</a> I love to approach projects both as a technical and business problems.
-
-  I've worked at companies of various sizes from small to big and right now I'm building stuff as an independent developer.
+  description = """Hi, I am Gaganpreet, a software engineer based in the Netherlands. I have extensive experience on the backend, and with scalability, security and devops.
   """
   mainSection = "posts"
   postsOnHomePage = 5
