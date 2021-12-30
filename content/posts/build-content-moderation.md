@@ -12,7 +12,6 @@ Warning: This post features text that might not be safe for work.
 
 Incorporating anti-spam measures are the least of concerns while building a user generated content (UGC) platform. Unless you're paranoid and spend precious time building moderation features in your platform, there will come a day when you sorely miss those tools. This is a story about exactly how this happened and how I dealt with it at Polarsteps.
 
-
 ## Spam content
 
 There's more than one kinds of spam, but the kind of spam I focussed on was accounts advertising their "call girl" or "escort" services:
@@ -20,7 +19,6 @@ There's more than one kinds of spam, but the kind of spam I focussed on was acco
 ![Spam content](/images/2021/spam.jpg)
 
 Within a few weeks the website was swarmed with spam accounts for "call girls", "escorts", linking to their website and/or phone number. That's the key feature of these spam accounts: they are driving traffic to their own sources.
-
 
 ## What won't work
 
@@ -32,13 +30,11 @@ Using Recaptcha to slow them down? Maybe it helps if spammers are creating hundr
 
 Conclusion: This isn't a problem suitable for a quick and dirty solution. It was time to roll up the sleeves and get down to building a spam pipeline.
 
-
 ## Step 1: Build moderation features and a rudimentary pipeline to handle spammers
 
 Before I did anything, I added moderation features to the platform. Admins can review and ban/delete accounts if necessary. Shadow banning was also considered, but deemed unnecessary.
 
 The next step was a really simple end-to-end pipeline of how a user goes through the spam pipeline. Choose a trigger word (eg: "call girls"), flag the users and let a human deal with the results. This got multiple things going: review and suspend users (true positives) or mark them trusted (false positives). Which left me with one pretty important problem to solve...
-
 
 ## Step 2: Classify the users automatically
 
@@ -71,7 +67,6 @@ On the other hand, there's also regex heavy spam detector like [Smoke Detector](
 I used a regex to count how often a trigger word appears in a users' profile and used that to assign a score to each profile. I picked two thresholds: one results in automatic suspension (which the user can appeal in case of false positive, none so far) and the other one lets a human review the profile.
 
 The spam detector has been chugging along. There's minimal intervention required, except for false positives. One tiny tweak I had to make to my code was to use [unicode normalisation](https://en.wikipedia.org/wiki/Unicode_equivalence) while processing text to detect obfuscated spam.
-
 
 ## Conclusion
 

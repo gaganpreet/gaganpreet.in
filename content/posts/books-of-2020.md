@@ -5,6 +5,7 @@ featured_image = ""
 description = ""
 tags = ["reads", "books", "fiction", "non-fiction" ]
 categories = ["books"]
+
 +++
 
 Working and living from home gave me a lot of free time that I could dedicate to reading. I read [40 books][0] this year. I usually read fiction, however this year I aimed to read a mix of fiction and non-fiction.
