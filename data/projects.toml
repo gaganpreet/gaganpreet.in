@@ -1,6 +1,7 @@
 [[list]]
 name = "Word Cabinet"
-desc = '(WIP) Practice vocabulary using spaced repetition'
+desc = 'Practice vocabulary using spaced repetition'
+url = "https://wordcabinet.com"
 
 [[list]]
 name = "No Cookie Analytics"
