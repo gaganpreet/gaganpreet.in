@@ -5,6 +5,8 @@ typora-root-url: ../../static
 
 ---
 
+**Update (2021-10-31)**: DuckDuckGo now includes results for Wikivoyage again, as do Bing and Yahoo.
+
 I have been planning a long due vacation and I was doing some research into the places I wanted to visit. My goto travel guide is Wikivoyage: it's well organised, text-heavy (instead of slideshow-heavy alternatives) and skimming the guide of a region will generally give a good idea of what to expect.
 
 So imagine my surprise when I enter a query with the keyword "Wikivoyage" on DuckDuckGo:
@@ -18,7 +20,6 @@ There's a lot of results shown on the page, but the takeaway is that results lin
 Since [DuckDuckGo uses Bing as a primary source](https://help.duckduckgo.com/duckduckgo-help-pages/results/sources/), I retried the same query on Bing. Completely different results compared to DuckDuckGo. The first result links directly to Wikitravel. Wikitravel is the original project and a schism in the project resulted in the creation of Wikivoyage, with Wikivoyage taking the mantle of being the more active project over the last few years.
 
 ![Wikivoyage Malta Bing](/images/2021/wikivoyage-bing.png)
-
 
 If I scroll down to the bottom of the Bing page, I see this message: ["Some results have been removed"](http://go.microsoft.com/fwlink/?LinkID=617350), a generic page which doesn't have any info about which results were excluded and why.
 
