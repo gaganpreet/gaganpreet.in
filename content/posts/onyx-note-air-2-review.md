@@ -18,9 +18,9 @@ I came across a [post on Reddit](https://old.reddit.com/r/Onyx_Boox/comments/qml
 
 I got in touch with the seller and they shipped a set of nibs right away and in a couple of days; I had a working pen.
 It's not the best experience out of the box, and Onyx should find a way to ship the pen so the nib doesn't get damaged.
- 
+
 ### Hardware
- 
+
 The device looks beautiful with orange highlights and a flush bezel.
 My device shipped with a grey (outside) and orange (inside) book folio case. There is, however, a huge design flaw with the case.
 The spine covers the side USB-C port on the tablet, and it's not possible to charge the tablet when the case is closed.
