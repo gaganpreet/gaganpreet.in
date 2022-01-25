@@ -1,5 +1,5 @@
 ---
-title: "Onyx Note Air 2 Review"
+title: "Onyx Boox Note Air 2 Review"
 date: 2022-01-23T17:53:40+01:00
 ---
 
