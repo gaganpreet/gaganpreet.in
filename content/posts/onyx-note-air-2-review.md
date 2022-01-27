@@ -9,7 +9,7 @@ Here's my experience of using the tablet for 6 weeks.
 
 ### Unboxing
 
-The first thing I noticed as I was unboxing was that the pen nib was bent and crushed.
+The first thing I noticed as I was unboxing was that the pen nib was bent and crushed _(see update at end of this section)_.
 This caused issues during the calibration process for the stylus, and I could write on the device with the tip hanging 1 cm in the air.
 
 ![Bent nib](/images/2022/bent-nib.jpg)
@@ -18,6 +18,8 @@ I came across a [post on Reddit](https://old.reddit.com/r/Onyx_Boox/comments/qml
 
 I got in touch with the seller and they shipped a set of nibs right away and in a couple of days; I had a working pen.
 It's not the best experience out of the box, and Onyx should find a way to ship the pen so the nib doesn't get damaged.
+
+_Update:_ Onyx commented on Reddit that a rubber protector was added to the pen to prevent damage during transit.
 
 ### Hardware
 
@@ -78,7 +80,7 @@ This doesn't affect how the device functions, but simply lacks a certain polish 
 
 The Boox, well, lets me read books. After configuring my library, I ran into a couple of issues:
 
-- My Calibre library syncs to my Boox with Syncthing. Onyx library, however, doesn't get refreshed automatically. It's a manual refresh that needs to be triggered.
+- My Calibre library syncs to my Boox with Syncthing. Onyx library, however, doesn't get refreshed automatically. It's a manual refresh that needs to be triggered. (_Update:_ Onyx said they are considering adding this feature in the future).
 
 - I don't know if this is an unintentional bug, but while a library refresh is in progress, I cannot open and read books.
 
