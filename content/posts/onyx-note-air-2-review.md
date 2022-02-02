@@ -1,11 +1,15 @@
 ---
 title: "Onyx Boox Note Air 2 Review"
 date: 2022-01-23T17:53:40+01:00
+images:
+    - /images/2022/onyx-boox-note-air-2.jpg
 ---
 
 I take a lot of notes and it was becoming a real headache to organise and revise things I had studied. I've been eyeing the e-ink tablet market since Remarkable launched a few years ago. The lack of a backlight and a recently introduced subscription model drove me to go for a Boox Note Air 2 instead.
 
 Here's my experience of using the tablet for 6 weeks.
+
+![Onyx Boox Note Air 2](/images/2022/onyx-boox-note-air-2.jpg)
 
 ### Unboxing
 
@@ -100,6 +104,7 @@ I've been reading using the tablet for the last couple of weeks and some things 
 
 - There is no dictionary installed (by default). On their blog, they document how to install [third-party dictionaries](https://medium.com/boox-content-hub/the-way-to-add-dictionaries-to-your-boox-d226b4f0316). Discounting the fact that these dictionaries are not official sources, the formatting of the two dictionaries I tried left a lot to be desired.
 - There are no reading estimations (time left in chapter or book). My 10-year-old Kindle touch had that, and it's a shame that it's not available here yet.
+- Highlighting text doesn’t snap to words. This is desirable for an Asian language like Mandarin, but not so much for English.
 
 They can improve the library and reading experience a lot more.
 
@@ -132,7 +137,7 @@ Onyx stores notes in its internal format. There is an option to "save notes as P
 OCR is very accurate, and I was frankly surprised by how well it worked with my cursive handwriting.
 It's the software that could use a bit of extra heuristic and make the recognition a lot better.
 
-While I use lined templates, it doesn't work well if the descender intersects with the content of the line below it (Descender is the part of a letter that hangs below the baseline, e.g.: for the letter p, the part below the "o" is the descender).
+When I use lined templates, it doesn't work well if the descender intersects with the content of the line below it (Descender is the part of a letter that hangs below the baseline, e.g.: for the letter p, the part below the "o" is the descender).
 
 ![Handwriting sample](/images/2022/screenshot-5.png)
 ![OCR'ed text](/images/2022/screenshot-6.png)
