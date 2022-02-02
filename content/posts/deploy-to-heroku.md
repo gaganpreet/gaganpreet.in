@@ -1,6 +1,12 @@
 ---
-title: "Deploy to Heroku button"
+title: "Creating a \"Deploy to Heroku\" button"
 date: 2022-01-25T21:52:48+01:00
+tags:
+ - Docker
+ - Github
+ - Heroku
+ - deploy
+ - template
 ---
 
 Heroku makes it a breeze to deploy applications to the cloud on their free instances. Although it's straightforward, here are my notes of how I set up the ["Deploy to Heroku"](https://devcenter.heroku.com/articles/heroku-button) button for [No Cookie Analytics](https://nocookieanalytics.com/).
@@ -73,7 +79,6 @@ The "Deploy to Heroku" button can now be embedded in the README. I chose the eas
  <!-- Alternative, explicit template -->
 
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/<USER>/core/tree/<BRANCH>)
- 
 ```
 
 ### Step 4: Speed things up
