@@ -35,6 +35,7 @@ The spine covers the side USB-C port on the tablet, and it's not possible to cha
 
 The case is gorgeous but is of subpar quality. The corner plastic clasps securing the tablet in the case have already started falling apart for me, and I came across more reports on the Boox subreddit with similar problems. I'll be getting a third party case.
 
+Update (May 2022): My case is now completely bust. Another corner broke on the case. I'm getting a third party case from Etsy.
 
 ### Display
 
@@ -43,6 +44,9 @@ The e-ink display is a delight to read on. It's front-lit and does not cause eye
 Along with a setting to adjust the light brightness, it's also possible to choose between warm and cool lighting.
 It's dark this time of the year here in the Netherlands and I've stuck to a warm mild colour.
 
+### Connectivity (Added: May 2022)
+
+The Note Air 2 has Bluetooth (for headphones or keyboards or anything you can use an Android device with), WiFi (5GHz) and a USB-C port. I hoped there would be MHL connectivity to use the device with an external monitor but it's neither mentioned anywhere in the specs nor could I make it work.
 
 ### Pen and writing
 
