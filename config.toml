@@ -54,18 +54,6 @@ unsafe= true
     link = "https://www.last.fm/user/gaganpreet"
     title = "Last.fm"
   [[params.social]]
-    name = "telegram"
-    link = "https://t.me/gaganpreet"
-    title = "Telegram"
-  [[params.social]]
-    name = "gitlab"
-    link = "https://gitlab.com/gaganpreet"
-    title = "Gitlab"
-  [[params.social]]
-    name = "keybase"
-    link = "https://keybase.io/gaganpreet"
-    title = "Keybase"
-  [[params.social]]
     name = "delicious"
     link = "https://pinboard.in/u:gagan"
     title = "Pinboard"
