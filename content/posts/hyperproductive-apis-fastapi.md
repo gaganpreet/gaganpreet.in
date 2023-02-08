@@ -1,5 +1,5 @@
 ---
-title: "Hyperproductive APIs with FastAPI using generated client code"
+title: "Hyperproductive API clients with FastAPI using OpenAPI Generator"
 date: 2022-05-30T15:48:25+02:00
 tags:
     - fastapi
