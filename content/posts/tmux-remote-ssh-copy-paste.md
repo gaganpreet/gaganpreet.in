@@ -5,6 +5,8 @@ slug: tmux-ssh-remote-clipboard
 draft: false
 ---
 
+Note: A better approach is documented [in this blog post](https://www.babushk.in/posts/renew-environment-tmux.html) by Igor Babuschkin.
+
 My current working setup is tmux + neovim. On top of that, I use my desktop for development that I often access remotely outside of home.
 
 One of the drawbacks of working remotely via SSH was that I couldn't copy to my client's native clipboard (eg: to share code snippets in Slack) remotely.
