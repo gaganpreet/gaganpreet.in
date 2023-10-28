@@ -1,0 +1,30 @@
+<!--<article class="flex flex-col items-center w-500">-->
+  <!--<img src="/images/me.jpg" />-->
+<!--</article>-->
+
+<!-- Add bio and photo side by side, scale image to 50px width -->
+<div class="flex flex-row">
+  <div class="flex flex-col ml-2">
+      <img src="/images/me.jpg" class="rounded-full" />
+  </div>
+
+  <div class="flex flex-col ml-2">
+      <h1 class="text-4xl font-bold">Gaganpreet Arora</h1>
+      <p>
+ Hi, I am Gaganpreet, a founder / software engineer based in the Netherlands. I have extensive experience on the backend, and with scalability, security and devops.
+      </p>
+  </div>
+</div>
+
+
+<div class="flex flex-col mt-1 text-2xl items-center justify-center text-center">
+  {{ partialCached "author-links.html" . }}
+</div>
+
+<section class="m-2">
+ {{ partial "partials/recent-articles.html" . }}
+</section>
+
+<section class="m-3">
+  {{ partial "partials/recent-projects.html" . }}
+</section>

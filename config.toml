@@ -1,78 +1,64 @@
 baseURL = "https://gaganpreet.in/"
-languageCode = "en-us"
+languageCode = "en"
 
-theme = "cactus"
+theme = 'github.com/jpanther/congo/v2'
 title = "Gaganpreet Arora"
+enableRobotsTXT = true
 
+
+[build]
+_merge = 'deep'
+
+
+[markup]
+_merge = 'deep'
 [markup.goldmark.renderer]
 unsafe= true
 
+[minify]
+_merge = 'deep'
+
+[author]
+name  = 'Gaganpreet Arora'
+description = """Hi, I am Gaganpreet, a software engineer based in the Netherlands. I have extensive experience on the backend, and with scalability, security and devops."""
+links = [
+    { github = "https://github.com/gaganpreet" },
+    { mastodon = "https://mastodon.online/@gagan" },
+    { twitter = "https://twitter.com/_gagan" },
+    { lastfm = "https://www.last.fm/user/gaganpreet" },
+    { linkedin = "https://in.linkedin.com/in/gaganpreetarora" },
+    { strava = "https://www.strava.com/athletes/42531861" },
+    { hacker-news = "https://news.ycombinator.com/user?id=gsa" },
+    { polarsteps = "https://www.polarsteps.com/gaganpreet" },
+    { goodreads = "https://goodreads.com/gaganpreetarora" },
+    { email =  "hey@gaganpreet.in" },
+]
 
 [params]
-  colortheme = "classic" # dark, light, white, or classic
+  colortheme = "avocado"
   rss = true # generate rss feed. default value is false
-  description = """Hi, I am Gaganpreet, a software engineer based in the Netherlands. I have extensive experience on the backend, and with scalability, security and devops.
-  """
   mainSection = "posts"
   postsOnHomePage = 5
   tagsOverview = false
-  logo = "/images/me.jpg"
   favicon = "/images/favicon.ico"
   css = ["css/custom.css"]
   showReadTime = true
 
+  [params.homepage]
+  layout = "custom"
+  showRecent = true
+
+  [params.header]
+  logo = "/images/me.jpg"
+
+
   [params.comments]
-    enabled = false # default
-    engine = "disqus" # more supported engines will be added.
+    enabled = false
+    engine = "disqus"
 
-  [[params.social]]
-    name = "github-alt"
-    link = "https://github.com/gaganpreet"
-    title = "Github"
-  [[params.social]]
-    name = "goodreads"
-    link = "https://goodreads.com/gaganpreetarora"
-    title = "Goodreads"
-  [[params.social]]
-    name = "mastodon"
-    link = "https://mastodon.online/@gagan"
-    title = "Mastodon"
-  [[params.social]]
-    link = "https://www.polarsteps.com/gaganpreet"
-    title = "Polarsteps"
-  [[params.social]]
-    name = "email"
-    link = "hey@gaganpreet.in"
-    title = "E-mail"
-  [[params.social]]
-    name = "twitter"
-    link = "https://twitter.com/_gagan"
-    title = "Twitter"
-  [[params.social]]
-    name = "hacker-news"
-    link = "https://news.ycombinator.com/user?id=gsa"
-    title = "Hacker News"
-  [[params.social]]
-    name = "lastfm"
-    link = "https://www.last.fm/user/gaganpreet"
-    title = "Last.fm"
-  [[params.social]]
-    name = "delicious"
-    link = "https://pinboard.in/u:gagan"
-    title = "Pinboard"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://in.linkedin.com/in/gaganpreetarora"
-    title = "Linkedin"
-  #[[params.social]]
-    #name = "instagram"
-    #link = "https://www.instagram.com/gaganpreet.arora/"
-    #title = "Instagram"
-  [[params.social]]
-    name = "strava"
-    link = "https://www.strava.com/athletes/42531861"
-    title = "Strava"
 
+  [params.footer]
+  showThemeAttribution = false
 
 [[menu.main]]
 name = "Home"

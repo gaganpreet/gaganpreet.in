@@ -1,0 +1,10 @@
+{{- $icon := resources.Get (print "icons/" . ".svg") -}}
+{{- if $icon -}}
+<span class="relative inline-block align-text-bottom px-1 icon" title="{{ . }}">
+    {{- $icon.Content | safeHTML -}}
+</span>
+{{ else }}
+<span class="relative inline-block align-text-bottom px-1 icon" title="{{ . }}">
+  {{ . }}
+</span>
+{{- end -}}
