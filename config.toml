@@ -51,11 +51,8 @@ links = [
   [params.header]
   logo = "/images/me.jpg"
 
-
-  [params.comments]
-    enabled = false
-    engine = "disqus"
-
+  [params.article]
+  showComments = true
 
   [params.footer]
   showThemeAttribution = false
