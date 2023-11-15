@@ -5,10 +5,9 @@ featured_image = ""
 description = ""
 tags = []
 categories = []
-draft = true
 +++
 
-I often work with JSON responses and need to process, view or compare objects. I have come to depend on a bunch of command line tools for these tasks.
+I often work with JSON responses and need to process, view or compare objects. I have come to depend on a bunch of command line tools for these tasks. Do you use any other tools? Let me know in comments below.
 
 ## View (bat)
 
