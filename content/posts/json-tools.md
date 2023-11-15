@@ -1,6 +1,6 @@
 +++
 title =  "Tools for working with JSON"
-date = 2023-10-25T00:02:40+02:00
+date = 2023-11-15T23:14:52+01:00
 featured_image = ""
 description = ""
 tags = []
