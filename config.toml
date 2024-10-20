@@ -18,13 +18,14 @@ unsafe= true
 [minify]
 _merge = 'deep'
 
-[author]
+[params.author]
 name  = 'Gaganpreet Arora'
 description = """Hi, I am Gaganpreet, a software engineer based in the Netherlands. I have extensive experience on the backend, and with scalability, security and devops."""
 links = [
     { github = "https://github.com/gaganpreet" },
     { mastodon = "https://mastodon.online/@gagan" },
-    { twitter = "https://twitter.com/_gagan" },
+    { bluesky = "https://bsky.app/profile/ggn.me" },
+    # { twitter = "https://twitter.com/_gagan" },
     { lastfm = "https://www.last.fm/user/gaganpreet" },
     { linkedin = "https://in.linkedin.com/in/gaganpreetarora" },
     { strava = "https://www.strava.com/athletes/42531861" },
@@ -35,7 +36,7 @@ links = [
 ]
 
 [params]
-  colortheme = "avocado"
+  colorScheme = "sapphire"
   rss = true # generate rss feed. default value is false
   mainSection = "posts"
   postsOnHomePage = 5
