@@ -1,6 +1,10 @@
 ---
 title: "Microservices"
 date: 2025-11-23T14:03:52+01:00
+tags:
+    - microservices
+    - recruiting
+    - architecture
 ---
 
 We've been expanding the team at DigiUsher. I've interviewed dozens of engineers. I noticed a pattern: almost everyone defaults to microservices when conversation moves to system design. When I ask why, the answers are often vague. In my experience, it's the same set of engineers who haven't yet been exposed to the overhead of a new microservice.
