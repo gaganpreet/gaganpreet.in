@@ -1,0 +1,14 @@
+content/posts/tracing-mysterious-github-webhook.md
+  h_84310c9df454ce 1-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5f19e588cf28a363f9e6d4aeddfd37e97a7bf740",
+  "prompts": {},
+  "humans": {
+    "h_84310c9df454ce": {
+      "author": "Gaganpreet Arora <me@gaganpreet.in>"
+    }
+  }
+}
