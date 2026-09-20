@@ -1,7 +1,6 @@
 ---
 title: "Tracing a mysterious GitHub webhook"
 date: 2026-09-20T14:13:20+02:00
-draft: true
 ---
 
 A little while ago, as I was wrapping up my day, I discovered an active webhook configured in the digiusher code repository. Events including PRs, issues, and commits were being sent to this webhook. I make it a habit to sweep our authorized apps on GitHub occasionally but I had never paid attention to webhooks for some reason. It didn't help that this webhook was configured not at the organization level but on an individual repository.
@@ -14,15 +13,15 @@ The payload URL of the webhook was simply this:
 https://github-bot-production.appspot.com/webhookEvent/_ID_
 ```
 
-The problem was simple -- I didn't remember setting this up. I disabled the webhook right away, but then immediately went into detective mode because I was quite curious how the webhook got there in the first place. Seeing as no one else in our organization had admin access to the repository - it could only have been me, but am I getting far along in my years?
+The problem was -- I didn't remember setting this up. I disabled the webhook right away, but then immediately went into detective mode because I was quite curious how the webhook got there in the first place. Seeing as no one else in our organization had admin access to the repository - it could only have been me, but am I getting far along in my years?
 
 ### Dead end 1 - Domain research
 
-The only information I had about the webhook was the domain: `github-bot-production.appspot.com`. Anyone can deploy an app on App Engine and receive a subdomain on appspot.com. `dig`ging the domain or any other domain level investigation didn't reveal anything.
+The only information I had about the webhook was the domain: `github-bot-production.appspot.com`. Anyone can deploy an app on App Engine and receive a subdomain on appspot.com. As I expected, `dig`ging the domain or any other domain level investigation didn't lead anywhere.
 
 #### Dead end 2 - Google
 
-I searched around everywhere - no results on Google or any other search engine for `github-bot-production.appspot.com`.
+I searched around - no results on Google or any other search engine for `github-bot-production.appspot.com`.
 
 ### Dead end 3 - GitHub
 
@@ -45,9 +44,9 @@ Although the webhook was added over a year ago and the GitHub audit log doesn't 
 }
 ```
 
-The two relevant fields - `actor` and `actor_location`. My GitHub user id had changed something in the webhook just a few weeks prior from the US. But I wasn't in the US at the timestamp.
+There are three interesting fields - `actor`, `actor_location` and `oauth_application_id`. My GitHub user id had changed something in the webhook just a few weeks prior from the US. But I wasn't in the US at the timestamp.
 
-That was the last clue I needed - the OAuth application ID led me to the "OAuth App Policy" in GitHub (which is defined at the organization level, not the repository level like the webhook), which pointed to "Google Chat". And then it all added up - at that time I had linked Google Chat to our repo to send alerts to Google Chat on repo events.
+The third one was the last clue I needed - the OAuth application ID led me to the "OAuth App Policy" in GitHub (which is defined at the organization level, not the repository level like the webhook), which pointed to "Google Chat". And then it all added up - one and a half years ago, I had linked Google Chat to our repo to send alerts to Google Chat on repo events.
 
 ## Naming disaster
 
