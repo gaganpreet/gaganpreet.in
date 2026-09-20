@@ -1,0 +1,21 @@
+config.toml
+  s_7053cb5c57c79c::t_082a1407d0e4c0 2
+layouts/partials/recent-projects.html
+  s_7053cb5c57c79c::t_39a25dd1ed5f4d 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8e99c3081fd81bda9335a71b8a08798e952f321f",
+  "prompts": {},
+  "sessions": {
+    "s_7053cb5c57c79c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0bee7-febb-7ca1-93bb-1e3ad9867d02",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Gaganpreet Arora <me@gaganpreet.in>"
+    }
+  }
+}
