@@ -1,5 +1,5 @@
 baseURL = "https://gaganpreet.in/"
-languageCode = "en"
+locale = "en"
 
 theme = 'github.com/jpanther/congo/v2'
 title = "Gaganpreet Arora"
